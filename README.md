@@ -1,8 +1,8 @@
 # public-notes
-Browser URL or filepath string: Ctrl+L
-VScode zoom: Ctrl++ and Ctrl+-
-To disable vim in vscode: F1, Toggle vim mode
-Move window: Win key + Arrow key
+*Browser URL or filepath string: Ctrl+L
+*VScode zoom: Ctrl++ and Ctrl+-
+*To disable vim in vscode: F1, Toggle vim mode
+*Move window: Win key + Arrow key
 
 To search a file name in cmd
 ```
@@ -22,5 +22,5 @@ https://xxxxx.api.crm.dynamics.com/api/data/v9.1/plugintracelogs?$top=1&$orderby
 
 vsdiff compare
 ```
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\vsDiffMerge.exe" "C:\Users\<user-name>\Desktop\Left.txt" "C:\Users\user-name\Desktop\Right.txt" \t
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\vsDiffMerge.exe" "C:\Users\<user-name>\Desktop\Left.txt" "C:\Users\<user-name>\Desktop\Right.txt" \t
 ```
