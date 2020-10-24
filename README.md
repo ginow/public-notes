@@ -1,8 +1,8 @@
 # public-notes
-*Browser URL or filepath string: Ctrl+L
-*VScode zoom: Ctrl++ and Ctrl+-
-*To disable vim in vscode: F1, Toggle vim mode
-*Move window: Win key + Arrow key
+* Browser URL or filepath string: Ctrl+L
+* VScode zoom: Ctrl++ and Ctrl+-
+* To disable vim in vscode: F1, Toggle vim mode
+* Move window: Win key + Arrow key
 
 To search a file name in cmd
 ```
