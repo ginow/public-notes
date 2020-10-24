@@ -9,7 +9,7 @@
 dir/s *filename*
 ```
 * To search string in all files, filename, dir name
-```Powershell
+```bash
 findstr /I /S stringtosearchhere * > outputfiletostoreresult.txt
 Get-ChildItem -Recurse | Select-String -Pattern stringtosearchhere 
 ```
