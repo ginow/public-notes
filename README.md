@@ -1,7 +1,7 @@
 # public-notes
 * Browser URL or filepath string: Ctrl+L
 * VScode zoom: Ctrl++ and Ctrl+-
-* To disable vim in vscode: F1, Toggle vim mode
+* To disable vim in vscode: F1 or Ctrl + Shift + P, Toggle vim mode
 * Move window: Win key + Arrow key
 
 * To search a file name in cmd
@@ -51,3 +51,4 @@ https://xxxxx.api.crm.dynamics.com/api/data/v9.1/plugintracelogs?$top=1&$orderby
 }
 ```
 * Toggle maximized panel: Ctrl + Alt + T
+* Toggle terminal: Ctrl + `
