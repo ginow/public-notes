@@ -50,3 +50,4 @@ https://xxxxx.api.crm.dynamics.com/api/data/v9.1/plugintracelogs?$top=1&$orderby
     "vim.useSystemClipboard": true
 }
 ```
+* Toggle maximized panel: Ctrl + Alt + T
