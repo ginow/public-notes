@@ -50,5 +50,13 @@ https://xxxxx.api.crm.dynamics.com/api/data/v9.1/plugintracelogs?$top=1&$orderby
     "vim.useSystemClipboard": true
 }
 ```
+* Vim .vimrc setting 
+```
+inoremap kj <Esc>
+set number
+colo torte
+syntax on
+set clipboard=unnamed
+```
 * Toggle maximized panel: Ctrl + Alt + T
 * Toggle terminal: Ctrl + `
