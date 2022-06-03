@@ -81,3 +81,8 @@ set clipboard=unnamed
 
 - Toggle maximized panel: Ctrl + Alt + T
 - Toggle terminal: Ctrl + `
+
+- Windows shutdown for linux
+```
+shutdown /s /t 0
+```
