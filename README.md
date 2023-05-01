@@ -20,6 +20,8 @@ Get-ChildItem -Recurse | Select-String -Pattern stringtosearchhere
 
 - vscode settings.json Preferences
 
+smooth cursor phase mode
+
 ```json
 {
     "window.zoomLevel": 1,
@@ -76,6 +78,12 @@ Sidebar Focus
 
 ```bash
 Shift+Ctrl+E
+```
+
+Fold unfold
+
+```bash
+Ctrl+Shift+[
 ```
 
 `Ctrl+Shift+L` - Select all occurrences and edit
