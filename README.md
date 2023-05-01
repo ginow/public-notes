@@ -20,8 +20,9 @@ Get-ChildItem -Recurse | Select-String -Pattern stringtosearchhere
 
 ## vscode settings.json Preferences
 
-- smooth cursor phase mode
-- sticky scroll
+- Cursor blinking `phase`
+- Editor: Cursor Smooth Caret Animation `on`
+- Editor › Sticky Scroll: Enabled
 
 ```json
 {
