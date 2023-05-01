@@ -18,10 +18,10 @@ Get-ChildItem -Recurse | Select-String -Pattern stringtosearchhere
 - Retrieve plugin log
   https://xxxxx.api.crm.dynamics.com/api/data/v9.1/plugintracelogs?$top=1&$orderby=createdon%20desc
 
-- vscode settings.json Preferences
+## vscode settings.json Preferences
 
-smooth cursor phase mode
-sticky scroll
+- smooth cursor phase mode
+- sticky scroll
 
 ```json
 {
