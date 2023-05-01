@@ -1,10 +1,5 @@
 # public-notes
 
-- Browser URL or filepath string: Ctrl+L
-- VScode zoom: Ctrl++ and Ctrl+-
-- To disable vim in vscode: F1 or Ctrl + Shift + P, Toggle vim mode
-- Move window: Win key + Arrow key
-
 - To search a file name in cmd
 
 ```
@@ -15,6 +10,8 @@ dir/s *filename*
 
 ```bash
 findstr /I /S stringtosearchhere * > outputfiletostoreresult.txt
+```
+```powershell
 Get-ChildItem -Recurse | Select-String -Pattern stringtosearchhere
 ```
 
@@ -35,15 +32,10 @@ To download videos with number prefixed:
 - Retrieve plugin log
   https://xxxxx.api.crm.dynamics.com/api/data/v9.1/plugintracelogs?$top=1&$orderby=createdon%20desc
 
-- vsdiff compare
-
-```
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\vsDiffMerge.exe" "C:\Users\<user-name>\Desktop\Left.txt" "C:\Users\<user-name>\Desktop\Right.txt" \t
-```
 
 - vscode settings.json Preferences
 
-```javascript
+```json
 {
     "window.zoomLevel": 1,
     "editor.formatOnSave": true,
@@ -296,3 +288,8 @@ Go to Entity (Functions, vars, etc)
 ```bash
 Ctrl+Shift+O
 ```
+
+- Browser URL or filepath string: Ctrl+L
+- VScode zoom: Ctrl++ and Ctrl+-
+- To disable vim in vscode: F1 or Ctrl + Shift + P, Toggle vim mode
+- Move window: Win key + Arrow key
