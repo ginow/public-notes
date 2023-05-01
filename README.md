@@ -66,6 +66,18 @@ set clipboard=unnamed
 
 ### VS Code shortcuts
 
+Toggle Sidebar
+
+```bash
+Ctrl+B
+```
+
+Sidebar Focus
+
+```bash
+Shift+Ctrl+E
+```
+
 `Ctrl+Shift+L` - Select all occurrences and edit
 
 ## Official List of all commands
@@ -97,11 +109,6 @@ Create New Terminal
 Shift+Ctrl+`
 ```
 
-Toggle Sidebar
-
-```bash
-Ctrl+B
-```
 
 Open New Window/Instance
 
@@ -117,11 +124,6 @@ Ctrl+W
 
 ## Working With Files
 
-Sidebar Focus
-
-```bash
-Shift+Ctrl+E
-```
 
 Open File/Folder From Sidebar
 ```
