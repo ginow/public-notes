@@ -15,23 +15,8 @@ findstr /I /S stringtosearchhere * > outputfiletostoreresult.txt
 Get-ChildItem -Recurse | Select-String -Pattern stringtosearchhere
 ```
 
-- To get playlist names in youtube
-
-```
-Not working:
- youtube-dl -o '%(playlist_index)s - %(title)s.%(ext)s' <url or id here> --get-filename
-
-Working:
-Only to get file name:
- youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" PL6n9fhu94yhUbctIoxoVTrklN3LMwTCmd --get-filename
-To download videos with number prefixed:
- youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" PL6n9fhu94yhUbctIoxoVTrklN3LMwTCmd
-
-```
-
 - Retrieve plugin log
   https://xxxxx.api.crm.dynamics.com/api/data/v9.1/plugintracelogs?$top=1&$orderby=createdon%20desc
-
 
 - vscode settings.json Preferences
 
@@ -74,12 +59,12 @@ set clipboard=unnamed
 - Toggle maximized panel: Ctrl + Alt + T
 - Toggle terminal: Ctrl + `
 
-- Windows shutdown for linux
-```
-shutdown /s /t 0
-```
 
-- VS Code shortcuts
+### VS Code vim shortcuts
+`gd` go to definition
+`Ctrl+O` go back to previous view 
+
+### VS Code shortcuts
 
 `Ctrl+Shift+L` - Select all occurrences and edit
 
@@ -293,3 +278,21 @@ Ctrl+Shift+O
 - VScode zoom: Ctrl++ and Ctrl+-
 - To disable vim in vscode: F1 or Ctrl + Shift + P, Toggle vim mode
 - Move window: Win key + Arrow key
+
+- Windows shutdown for linux
+```
+shutdown /s /t 0
+```
+- To get playlist names in youtube
+
+```
+Not working:
+ youtube-dl -o '%(playlist_index)s - %(title)s.%(ext)s' <url or id here> --get-filename
+
+Working:
+Only to get file name:
+ youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" PL6n9fhu94yhUbctIoxoVTrklN3LMwTCmd --get-filename
+To download videos with number prefixed:
+ youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" PL6n9fhu94yhUbctIoxoVTrklN3LMwTCmd
+
+```
