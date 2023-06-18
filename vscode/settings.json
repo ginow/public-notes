@@ -1,0 +1,70 @@
+{
+  "window.zoomLevel": 0,
+  "editor.formatOnSave": true,
+  // Command Prompt
+  // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+  // Git Bash
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "k",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.useSystemClipboard": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "powershell.powerShellDefaultVersion": "Windows PowerShell (x64)",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.wordWrap": "on",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "python.defaultInterpreterPath": "C:\\msys64\\mingw64\\bin\\python.exe",
+  "editor.stickyScroll.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "svelte.enable-ts-plugin": true,
+  "extensions.ignoreRecommendations": true,
+  "terminal.integrated.minimumContrastRatio": 7,
+  "workbench.colorCustomizations": {
+    "[Monokai Pro (Filter Spectrum)]": {
+      "terminal.background": "#131212"
+    }
+  },
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "JetBrainsMonoNL Nerd Font"
+}
