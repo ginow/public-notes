@@ -330,5 +330,6 @@
                 "useMica": false
             }
         }
-    ]
+    ],
+    "useAcrylicInTabRow": true
 }
