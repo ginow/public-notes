@@ -14,7 +14,46 @@ findstr /I /S stringtosearchhere * > outputfiletostoreresult.txt
 ```powershell
 Get-ChildItem -Recurse | Select-String -Pattern stringtosearchhere
 ```
+```javascript
+// Get all <a> elements within the playlist
+var playlistItems = document.querySelectorAll('#items a');
 
+// Array to store URLs
+var urls = [];
+
+// Iterate over each <a> element
+playlistItems.forEach(function(item) {
+    // Check if the href attribute exists and starts with "/watch"
+    var href = item.getAttribute('href');
+    if (href && href.startsWith && href.startsWith('/watch')) {
+        // Add the URL to the array
+        href=`python .\youtube-dl -x --audio-format mp3 "${href}"`;
+        urls.push(href);
+    }
+});
+
+// Convert the array of URLs to a string
+var urlsText = urls.join('\n');
+
+// Create a Blob containing the URLs
+var blob = new Blob([urlsText], { type: 'text/plain' });
+
+// Create a temporary URL to download the Blob
+var url = URL.createObjectURL(blob);
+
+// Create a link element to trigger the download
+var link = document.createElement('a');
+link.href = url;
+link.download = 'playlist_urls.txt';
+
+// Append the link to the document body and trigger the download
+document.body.appendChild(link);
+link.click();
+
+// Cleanup: remove the link and revoke the Blob URL
+document.body.removeChild(link);
+URL.revokeObjectURL(url);
+```
 - Retrieve plugin log
   https://xxxxx.api.crm.dynamics.com/api/data/v9.1/plugintracelogs?$top=1&$orderby=createdon%20desc
 
