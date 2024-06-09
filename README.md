@@ -27,7 +27,7 @@ playlistItems.forEach(function(item) {
     var href = item.getAttribute('href');
     if (href && href.startsWith && href.startsWith('/watch')) {
         // Add the URL to the array
-        href=`python .\youtube-dl -x --audio-format mp3 "${href}"`;
+        href=`python youtube-dl -x --audio-format mp3 --ignore-errors "https://www.youtube.com${href}"`;
         urls.push(href);
     }
 });
