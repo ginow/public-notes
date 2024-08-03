@@ -85,7 +85,11 @@ URL.revokeObjectURL(url);
             ]
         }
     ],
-    "vim.useSystemClipboard": true
+    "vim.useSystemClipboard": true,
+    // Paste image directly into markdown:
+     "markdown.copyFiles.destination": {
+        "**/*": "${documentWorkspaceFolder}/assets/"
+    }
 }
 ```
 
