@@ -1,5 +1,21 @@
 # public-notes
-
+- PDF compress command
+  ```bash
+  gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 \
+   -dPDFSETTINGS=/screen \
+   -dDownsampleColorImages=true \
+   -dColorImageDownsampleType=/Bicubic \
+   -dColorImageResolution=130 \
+   -dDownsampleGrayImages=true \
+   -dGrayImageDownsampleType=/Bicubic \
+   -dGrayImageResolution=130 \
+   -dDownsampleMonoImages=true \
+   -dMonoImageDownsampleType=/Subsample \
+   -dMonoImageResolution=130 \
+   -dNOPAUSE -dBATCH -dQUIET \
+   -sOutputFile=output.pdf input.pdf
+  ```
+  
 - To search a file name in cmd
 
 ```
