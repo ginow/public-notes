@@ -1,5 +1,5 @@
 # public-notes
-- PDF compress command
+- PDF compress command, using ghostscript command
   ```bash
   gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 \
    -dPDFSETTINGS=/screen \
