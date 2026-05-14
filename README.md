@@ -1,4 +1,13 @@
 # public-notes
+- Check NVIDIA GPU Utilisation in Debian
+  ```bash
+  nvidia-smi
+  ```
+- Run any app using NVIDIA
+  ```bash
+  prime-run blender
+  ```
+  
 - PDF compress command, using ghostscript command
   ```bash
   gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 \
