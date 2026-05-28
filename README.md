@@ -7,7 +7,13 @@
   ```bash
   prime-run blender
   ```
-  
+- If unable to do `git clone` on mounted drives then do:
+  ```bash
+  sudo umount /mnt/new_volume
+  lsblk
+  sudo mount -o rw,uid=1000,gid=1000,dmask=0022,fmask=0133 /dev/sdb1 /mnt/new_volume
+  ```
+  Note that lsblk is to find out the name "sdb1"
 - PDF compress command, using ghostscript command
   ```bash
   gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 \
