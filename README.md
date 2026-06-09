@@ -14,6 +14,11 @@
   sudo mount -o rw,uid=1000,gid=1000,dmask=0022,fmask=0133 /dev/sdb1 /mnt/new_volume
   ```
   Note that lsblk is to find out the name "sdb1"
+- Push git changes to remote: First check if SSH is setup in GitHub for your user
+  ```bash
+  ssh -T git@github.com #Hi ginow! You've successfully authenticated, but GitHub does not provide shell access.
+  git remote add <anyname> git@github.com:ginow/<repo-name>.git
+  ```
 - PDF compress command, using ghostscript command
   ```bash
   gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 \
