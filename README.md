@@ -90,6 +90,16 @@ link.click();
 document.body.removeChild(link);
 URL.revokeObjectURL(url);
 ```
+- If C# VS Code extensions not working properly then add below in `settings.json`
+  ```
+   "dotnetAcquisitionExtension.existingDotnetPath": [
+        
+        {
+            "extensionId": "ms-dotnettools.csharp",
+            "path": "/home/predator/.dotnet/dotnet"
+        }
+    ]
+  ```
 - Retrieve plugin log
   https://xxxxx.api.crm.dynamics.com/api/data/v9.1/plugintracelogs?$top=1&$orderby=createdon%20desc
 
